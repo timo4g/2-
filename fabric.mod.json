@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "psychomod",
+  "version": "5.0.0",
+  "name": "PsychoMod: 100 Disorders",
+  "description": "100 расстройств, задания без наград, таблетки снимают 1 случайное расстройство. Молоко не лечит.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.example.psychomod.PsychoMod"],
+    "client": ["ru.example.psychomod.PsychoClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

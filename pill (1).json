@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG",
+    "GIG",
+    "GGG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:glass" },
+    "S": { "item": "minecraft:diamond" },
+    "I": { "item": "minecraft:milk_bucket" }
+  },
+  "result": {
+    "item": "psychomod:pill",
+    "count": 1
+  }
+}
